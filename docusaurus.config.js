@@ -23,7 +23,7 @@ const config = {
   url: 'https://gabrielvictorino8266.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mkdocs-documentacao-projetointegrador-4-semestre',
+  baseUrl: '/mkdocs-documentacao-projetointegrador-4-semestre/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
