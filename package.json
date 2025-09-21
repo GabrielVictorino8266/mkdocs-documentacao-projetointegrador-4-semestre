@@ -2,7 +2,7 @@
   "name": "projeto-integrador",
   "version": "0.0.0",
   "private": true,
-   "homepage": "https://gabrielvictorino8266.github.io/mkdocs-documentacao-projetointegrador-4-semestre",
+  "homepage": "https://gabrielvictorino8266.github.io/mkdocs-documentacao-projetointegrador-4-semestre",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
+    "@docusaurus/types": "3.8.1",
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
