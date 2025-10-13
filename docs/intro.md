@@ -2,102 +2,240 @@
 sidebar_position: 1
 ---
 
-# Sistema de Gestão de Frota de Veículos de Transporte
+# 🚀 Bem-vindo ao Sistema de Gestão de Frota
 
-Integrantes
+<div align="center">
 
-Bruno Alexander - 
-Gabriel Victorino - 
-Izabely Campos - 
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Semestre](https://img.shields.io/badge/Semestre-4º-blue?style=for-the-badge)
+![Curso](https://img.shields.io/badge/Curso-DSM-green?style=for-the-badge)
 
-# Disiciplinas Envolvidas
+**Uma solução completa e moderna para gestão de frotas de transporte coletivo**
 
-As diciplinas que fazem parte do Desenvolvimento do projeto são as aulas de "Laboratório de Desenvolvimento Web" e ""
+Desenvolvido pela equipe **DriveFlow** | Fatec Araras
 
+</div>
 
-# Nossa empresa
+---
 
-A empresa (ficticia) formada para esse projeto recebeu o nome de PRODEV, uma companhia de tecnologia fundada por alunos do curso de Desenvolvimento de Software Multiplataforma (DSM) da Fatec Araras, com a finalidade de proporcionar soluções inovadoras fundamentadas na excelência técnica.  Ao empregar metodologias ágeis, a equipe busca fazer entregas regulares que proporcionem valor concreto aos clientes.
+## 🎯 Sobre o Projeto
 
-# O Projeto 
+O **Sistema de Gestão de Frota** é uma plataforma web desenvolvida para revolucionar a gestão de frotas no setor de transporte coletivo de passageiros.
 
-O objetivo do projeto é desenvolver e implementar um sistema completo para a gestão de frotas. A proposta é aprimorar o controle e a gestão de viagens, veículos e motoristas, proporcionando uma maior consciência situacional e uma gestão mais eficiente.  Com isso, espera-se melhorar a eficiência, diminuir o tempo de tomada de decisões, otimizar o uso dos recursos disponíveis e fornecer informações precisas para apoiar decisões estratégicas.
+### 💡 O Problema
 
-A implementação dessa solução tecnológica trará uma modernização significativa para os processos da Viação União. Espera-se maior controle da frota, redução de custos com manutenções corretivas, melhor uso dos recursos e melhora na qualidade do serviço prestado aos usuários.
+A **Viação União**, nosso cliente, enfrenta desafios com gestão manual:
+- ❌ Falta de dados consolidados para tomada de decisão
+- ❌ Processos manuais gerando retrabalho
+- ❌ Controle impreciso de veículos e motoristas
+- ❌ Dificuldade em acompanhar manutenções
 
-# Nosso cliente 
+### ✨ Nossa Solução
 
-O projeto consiste em um sistema para a Viação União, empresa que atua no transporte coletivo de passageiros, visando modernizar suas operações por meio da criação de um sistema unificado de informações.  Atualmente, a gestão da empresa é realizada de forma manual, o que gera ineficiências operacionais, dificulta a tomada de decisões em razão da falta de dados confiáveis e compromete o monitoramento adequado da frota.
+Uma plataforma completa que oferece:
+- ✅ **Gestão de Motoristas** - Cadastro, documentação e controle de CNH
+- ✅ **Controle de Veículos** - Monitoramento de quilometragem e manutenções
+- ✅ **Registro de Viagens** - Automação de saídas e retornos
+- ✅ **Dashboard Inteligente** - Métricas e indicadores em tempo real
+- ✅ **Relatórios Gerenciais** - Dados para decisões estratégicas
 
-# Requisitos funcionais
+---
 
-## Gerenciamento de Motoristas 
+## 🏢 Quem Somos
 
-- O sistema deve permitir o cadastro de motoristas com as seguintes informações: 
- -Nome completo
- -CPF
- -RG
- -CNH (número, validade e categoria)
- -Telefone,
- -Contato de emergência.
+### DriveFlow - Soluções em Gestão de Frotas
 
-- O sistema deve disponibilizar uma interface com uma lista de motoristas cadastrados, exibindo pelo menos o nome, status e telefone. A lista deve ser atualizada automaticamente após cada novo cadastro ou alteração.
+A **DriveFlow** é uma empresa fictícia criada para este projeto integrador, formada por estudantes do curso de **Desenvolvimento de Software Multiplataforma (DSM)** da **Fatec Araras**.
 
-- O sistema deve fornecer uma funcionalidade de busca por nome do motorista na lista, permitindo que o administrador localize rapidamente um cadastro específico.
+**Nossa Missão**: Desenvolver soluções tecnológicas de alta qualidade que agreguem valor real aos nossos clientes.
 
-- O sistema deve permitir que o administrador acesse o perfil completo de qualquer motorista cadastrado, onde serão exibidas todas as informações inseridas, incluindo dados pessoais, CNH, contatos, status atual (ativo ou inativo) .
+**Nossos Valores**:
+- 🎯 Excelência técnica
+- 🔄 Metodologias ágeis
+- 📊 Decisões baseadas em dados
+- 🤝 Trabalho colaborativo
 
-- O sistema deve permitir que o administrador edite os dados de motoristas a qualquer momento, garantindo a atualização de informações como validade da CNH, contato telefônico ou dados pessoais corrigidos.
+[📘 Conheça mais sobre a DriveFlow →](./introducao/empresa.md)
 
-- O sistema deve permitir que o administrador altere o status de um motorista de “ativo” para “inativo” ou vice-versa.
-- O sistema deve permitir a desativação de motoristas sem exclusão definitiva dos dados, mantendo todo o histórico cadastral disponível para futuras consultas.
+### 👥 Equipe de Desenvolvimento
 
-## Dashboard 
+<table>
+<tr>
+<td align="center" width="33%">
+<strong>🧑‍💻 Gabriel Victorino</strong><br/>
+<em>Backend & Arquitetura</em>
+</td>
+<td align="center" width="33%">
+<strong>🎨 Bruno Alexander</strong><br/>
+<em>Frontend & UX</em>
+</td>
+<td align="center" width="33%">
+<strong>🧪 Izabely Campos</strong><br/>
+<em>Qualidade & Testes</em>
+</td>
+</tr>
+</table>
 
-- O sistema deve disponibilizar um painel visual para cada módulo (dashboard) exclusivo para Anderson, contendo gráficos e indicadores com informações como: Viagens no mês, Vans em Manutenção, Próxima troca de óleo, Status veículo.
+[👥 Conheça a equipe completa →](./equipe/integrantes.md)
 
-- O sistema deve exibir os registros na seção “Listagem de veículos”, priorizando as vans que estão mais próximas da troca de óleo.
+---
 
-- Deve exibir, na seção “Listagem de veículos” , um gráfico em forma de pizza, onde a cor verde representa os veículos disponíveis, a cor vermelha representa os veículos indisponíveis e a laranja os veículos em manutenção. Abaixo do gráfico, deve haver uma descrição clara para identificar o que cada cor representa.
+## 🚌 Nosso Cliente
 
-## Controle de Veículos 
+### Viação União
 
-- Permitir que o administrador cadastre veículos com os seguintes dados: 
- -Placa
- -Modelo
- -Marca
- -Ano
- -Quilometragem atual
- -Imagem do veículo
- -Status (disponível, em manutenção, etc.)
+Empresa de **transporte coletivo de passageiros** que busca modernizar sua gestão operacional através de tecnologia.
 
- - O sistema deve permitir a consulta e busca de veículos cadastrados por: placa,  status, para facilitar a localização de veículos específicos.
+**Desafios Atuais**:
+- Gestão manual e descentralizada
+- Falta de histórico de operações
+- Controle inadequado de manutenções
+- Dificuldade em gerar relatórios
 
- - O sistema deve permitir que o administrador atualize a quilometragem e o status a qualquer momento, garantindo que os dados dos veículos estejam sempre atualizados
+**Expectativas com o Sistema**:
+- Centralização de informações
+- Automação de processos
+- Redução de custos operacionais
+- Melhor tomada de decisão
 
-## Viagens 
+[🚌 Saiba mais sobre o cliente →](./introducao/cliente.md)
 
-- Realizar o registro automático do horário e da quilometragem no início e no fim de cada viagem. O motorista não pode escolher a data manualmente; o sistema deve capturar os dados no momento da ação (início/finalização). Ao finalizar a viagem, o sistema deve registrar a quilometragem final (informada pelo motorista) e o horário de entrada na garagem.
+---
 
-- Permitir que o administrador (Anderson) realize o lançamento manual de viagens, com a definição do motorista, veículo, data e horário de início e previsão de término. O administrador também poderá finalizar manualmente uma viagem não encerrada para manter a continuidade do controle.
+## 🎨 Principais Funcionalidades
 
+<table>
+<tr>
+<td width="50%">
 
-# Requisitos não funcionais
+### 👨‍✈️ Gestão de Motoristas
+- ✅ Cadastro completo com documentação
+- ✅ Controle de CNH e validade
+- ✅ Busca e filtros avançados
+- ✅ Histórico de viagens
 
-## Desempenho
-- O sistema deve responder em menos de 10 segundos para operações comuns, como cadastro e consulta de dados.
+</td>
+<td width="50%">
 
-## Segurança
-- O sistema deve exigir autenticação com senha, contendo no mínimo 4 caracteres, permitindo ser letras e números.
+### 🚗 Controle de Veículos
+- ✅ Cadastro com fotos
+- ✅ Monitoramento de quilometragem
+- ✅ Controle de manutenções
+- ✅ Status em tempo real
 
-- Os paineis devem estar disponíveis apenas para os usuários autenticados.
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-## Disponibilidade
-- O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com indisponibilidade a ser definida pelo time técnico, mas se limitando a poucas horas.
+### 🗺️ Registro de Viagens
+- ✅ Registro automático de saída/retorno
+- ✅ Captura de quilometragem
+- ✅ Lançamento manual (admin)
+- ✅ Histórico completo
 
-## Backup
-- O sistema deve realizar backups automáticos diariamente, com retenção de dados por pelo menos 30 dias.
+</td>
+<td width="50%">
 
-## Integração
-- Deve ser compatível com os principais navegadores modernos, incluindo Google Chrome, Microsoft Edge e Mozilla Firefox.
+### 📊 Dashboard & Relatórios
+- ✅ Indicadores em tempo real
+- ✅ Gráficos interativos
+- ✅ Alertas de manutenção
+- ✅ Exportação de dados
 
+</td>
+</tr>
+</table>
+
+[📋 Ver documentação completa de requisitos →](./Requisitos/funcionais.md)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div align="center">
+
+### Stack Tecnológica
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                      FRONTEND                           │
+│  Svelte • TypeScript • TailwindCSS • Vite              │
+└─────────────────────────────────────────────────────────┘
+                            ↕
+┌─────────────────────────────────────────────────────────┐
+│                      BACKEND                            │
+│  Spring Boot • Java 17 • JPA/Hibernate • REST API      │
+└─────────────────────────────────────────────────────────┘
+                            ↕
+┌─────────────────────────────────────────────────────────┐
+│                      DATABASE                           │
+│  PostgreSQL • SQL • Migrations                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+**Destaques**:
+- 🎨 **Frontend Moderno** - Svelte para interfaces reativas e performáticas
+- ⚡ **Backend Robusto** - Spring Boot para APIs escaláveis e seguras
+- 🗄️ **Banco Confiável** - PostgreSQL para dados estruturados e relacionais
+- 🔐 **Segurança** - JWT para autenticação e autorização
+
+[💻 Detalhes das tecnologias →](./Desenvolvimento/tecnologias.md)
+
+---
+
+## 📚 Explore a Documentação
+
+### 📖 Introdução
+- **[Visão Geral do Projeto](./Introdução/index.md)** - Entenda o contexto e objetivos
+- **[Nossa Empresa - DriveFlow](./Introdução/empresa.md)** - Conheça nossa metodologia
+- **[Nosso Cliente - Viação União](./Introdução/cliente.md)** - Desafios e expectativas
+
+### 📋 Requisitos do Sistema
+- **[Requisitos Funcionais](./Requisitos/funcionais.md)** - Funcionalidades detalhadas
+- **[Requisitos Não Funcionais](./Requisitos/nao-funcionais.md)** - Performance, segurança e qualidade
+
+### 💻 Desenvolvimento
+- **[Tecnologias Utilizadas](./Desenvolvimento/tecnologias.md)** - Stack completa do projeto
+- **[Arquitetura do Sistema](./Desenvolvimento/arquitetura.md)** - Estrutura e padrões
+- **[Cronograma e Entregas](./Desenvolvimento/entregas.md)** - Planejamento do projeto
+
+### 👥 Equipe
+- **[Integrantes do Projeto](./Equipe/integrantes.md)** - Conheça quem está desenvolvendo
+
+---
+
+## 🎓 Contexto Acadêmico
+
+Este projeto é desenvolvido como **Projeto Integrador do 4º Semestre** do curso de **Desenvolvimento de Software Multiplataforma (DSM)** da **Fatec Araras**.
+
+**Disciplinas Envolvidas**:
+- 📚 Laboratório de Desenvolvimento Web
+- 📚 Projeto Integrador IV
+
+**Objetivos Acadêmicos**:
+- Aplicar conhecimentos teóricos em projeto real
+- Desenvolver habilidades de trabalho em equipe
+- Experiência com metodologias ágeis
+- Construção de portfólio profissional
+
+---
+
+## 📞 Informações de Contato
+
+<div align="center">
+
+**Equipe DriveFlow**
+
+📧 **Email**: prodev.fatec@gmail.com  
+🐙 **GitHub**: [github.com/prodev-fatec](https://github.com)  
+🏫 **Instituição**: Fatec Araras - DSM 4º Semestre
+
+---
+
+**Documentação mantida pela equipe DriveFlow**  
+*Última atualização: Janeiro 2025*
+
+</div>
